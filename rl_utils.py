@@ -3,7 +3,6 @@ import numpy as np
 import torch
 import collections
 import random
-import numpy
 
 class ReplayBuffer:
     def __init__(self, capacity):
@@ -30,18 +29,16 @@ def moving_average(a, window_size):
 
 def train_on_policy_agent(env, agent, num_episodes):
     return_list = []
-    if not hasattr(np, 'bool8'):
-        np.bool8 = np.bool_
     for i in range(10):
         with tqdm(total=int(num_episodes/10), desc='Iteration %d' % i) as pbar:
             for i_episode in range(int(num_episodes/10)):
                 episode_return = 0
                 transition_dict = {'states': [], 'actions': [], 'next_states': [], 'rewards': [], 'dones': []}
-                state = env.reset(seed=0)[0]
+                state = env.reset(seed = 0)
                 done = False
                 while not done:
                     action = agent.take_action(state)
-                    next_state, reward, done, _, __ = env.step(action)
+                    next_state, reward, done, _ = env.step(action)
                     transition_dict['states'].append(state)
                     transition_dict['actions'].append(action)
                     transition_dict['next_states'].append(next_state)
