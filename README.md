@@ -17,3 +17,14 @@ Some notes and codes derived when learning RL &amp; DRL
 
     配置虚拟环境(主要是隔离电脑中的ROS2)遇到的问题与解决:
     echo $PYTHONPATH会出现全局的路径, 但which pip和which python都指向正常, 解决方法为激活虚拟环境后运行unset PYTHONPATH, 即可将环境清理干净.(已经将此命令集成到activate脚本中)
+
+- **Day4**: Finished [动手学强化学习](https://hrl.boyuai.com/) Chapter 9
+
+    code: 9PG(REINFORCE).ipynb Updated
+
+    针对gym的更新，需要修改几处地方：
+
+    - 环境名称-v0 -> 环境名称-v1
+    - env.seed(0) -> env.reset(seed=0)
+    - state = env.reset() -> state = env.reset(seed = 0)[0]
+    
