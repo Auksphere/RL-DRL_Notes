@@ -27,4 +27,7 @@ Some notes and codes derived when learning RL &amp; DRL
     - 环境名称-v0 -> 环境名称-v1
     - env.seed(0) -> env.reset(seed=0)
     - state = env.reset() -> state = env.reset(seed = 0)[0]
-    
+    - def take_action中，state = torch.tensor([state] ...) -> state = torch.tensor(np.array([state]) ...)
+    - steps = 0
+        while not done and steps < 200:
+                steps += 1 (否则回报会发散，因为现在的gym没有自动停止)
