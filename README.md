@@ -27,5 +27,10 @@ Some notes and codes derived when learning RL &amp; DRL
     - 环境名称-v0 -> 环境名称-v1
     - env.seed(0) -> env.reset(seed=0)
     - state = env.reset() -> state = env.reset(seed = 0)[0]
-    - take_action中的[state]改为np.array([state])
-    - 在主循环while not done处添加停止步数steps, 现版本的gym不会自动停止
+    - take_action中的[state]改为np.array([state])(for 7,8,9,10)
+    - 在主循环while not done处添加停止步数steps, 现版本的gym不会自动停止(for 7,8,9,10)
+
+- **Day5**: Finished [动手学强化学习](https://hrl.boyuai.com/) Chapter 11-14
+
+    code: 11TRPO.ipynb，12PPO.ipynb 13DDPG.ipynb 14SAC.ipynb Updated
+          some bugs fixed in rl_utils.py 
