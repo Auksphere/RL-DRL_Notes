@@ -34,3 +34,7 @@ Some notes and codes derived when learning RL &amp; DRL
 
     code: 11TRPO.ipynb，12PPO.ipynb 13DDPG.ipynb 14SAC.ipynb Updated
           some bugs fixed in rl_utils.py 
+
+- **Day6**: Finished [动手学强化学习](https://hrl.boyuai.com/) Chapter 15-16
+
+    code: 15IL.ipynb，16MPC.ipynb Updated
