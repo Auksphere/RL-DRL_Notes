@@ -1,4 +1,6 @@
-# HandsOn_RL
+# RL-DRL Notes
+
+## Handson_RL
 Some notes and codes derived when learning RL &amp; DRL
 
 - **Day1**: Finished [动手学强化学习](https://hrl.boyuai.com/) Chapter 1,2,3
@@ -43,4 +45,13 @@ Some notes and codes derived when learning RL &amp; DRL
 
     code: 17MBPO.ipynb，18offlineRL.ipynb， 19GoRL.ipynb Updated
 
-[动手学强化学习](https://hrl.boyuai.com/)暂时完结，接下来可能会更新一些[伯克利CS285 DRL](https://www.bilibili.com/video/BV1NjH4eYEyZ/?vd_source=c8c71291e60e9f04c7eb6e98ccc7c3ab)的网课笔记,以及[openai spinning up](https://spinningup.openai.com/en/latest/index.html)相关的笔记
+[动手学强化学习](https://hrl.boyuai.com/)暂时完结，接下来可能会更新一些[伯克利CS285 DRL](https://www.bilibili.com/video/BV1NjH4eYEyZ/?vd_source=c8c71291e60e9f04c7eb6e98ccc7c3ab)的网课笔记和[openai spinning up](https://spinningup.openai.com/en/latest/index.html)的学习笔记
+
+---
+几个月后。。。
+
+## CS285 DRL
+[CS285](https://www.bilibili.com/video/BV1NjH4eYEyZ/?vd_source=c8c71291e60e9f04c7eb6e98ccc7c3ab)
+
+## Spinning up
+[openai spinning up](https://spinningup.openai.com/en/latest/index.html)
