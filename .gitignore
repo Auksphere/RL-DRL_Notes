@@ -1,3 +1,13 @@
 .venv/
 __pycache__/
 GPU_check.py
+*.DS_Store
+
+# macOS system files
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
