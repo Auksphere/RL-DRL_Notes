@@ -3,7 +3,7 @@ __pycache__/
 GPU_check.py
 *.DS_Store
 models/
-# macOS system files
+data/
 .AppleDouble
 .LSOverride
 Icon?

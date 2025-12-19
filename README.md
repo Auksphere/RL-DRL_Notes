@@ -55,3 +55,10 @@ Some notes and codes derived when learning RL &amp; DRL
 
 ## Spinning up
 [openai spinning up](https://spinningup.openai.com/en/latest/index.html)
+
+## PyTorch
+[PyTorch docs](https://www.learnpytorch.io)
+
+每一部分的后面都有对应的练习，read through后可以直接开始练习。
+
+结束后可以开始复现Learning领域的论文。
