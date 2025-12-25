@@ -4,6 +4,7 @@ GPU_check.py
 *.DS_Store
 models/
 data/
+runs/
 .AppleDouble
 .LSOverride
 Icon?
